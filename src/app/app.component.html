@@ -1,0 +1,40 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-body-secondary">
+  <a class="navbar-brand m-3" href="#">Travail Zone</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="/home">Home </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/consulter">Consulter</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link " routerLink="/postuler">Postuler</a>
+      </li>
+
+    </ul>
+    <div class="d-flex align-items m-auto ">
+        <button type="button" class="btn btn-outline-primary  px-8 me-2" routerLink="/signin">Sign in</button>
+      <button data-mdb-ripple-init type="button" class="btn btn-primary me-3" routerLink="/signup">
+        Sign up
+      </button>
+      <a
+        data-mdb-ripple-init
+        class="btn btn-light px-2"
+        role="button" routerLink="/profil">
+        <i class="bi bi-person" ></i>
+      </a>
+    </div>
+
+  </div>
+</nav>
+
+
+<router-outlet>
+
+</router-outlet>

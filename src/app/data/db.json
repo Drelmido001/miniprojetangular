@@ -1,0 +1,129 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "candidat1",
+      "email": "candidat1@example.com",
+      "password": "hashedpassword",
+      "role": "candidat",
+      "additionalField": "..."
+    },
+    {
+      "id": "2",
+      "username": "entreprise1",
+      "email": "entreprise1@example.com",
+      "password": "hashedpassword",
+      "role": "entreprise",
+      "additionalField": "..."
+    },
+    {
+      "id": "ec89",
+      "username": "salam",
+      "email": "salam@gmail.com",
+      "password": "3645454"
+    },
+    {
+      "id": "4313",
+      "username": "user",
+      "email": "salam",
+      "password": "3645454",
+      "role": "candidat",
+      "cv": null,
+      "additionalField": null
+    },
+    {
+      "id": "25c4",
+      "username": "user",
+      "email": "elmehdidouiri99@gmail.com",
+      "password": "541515645",
+      "role": "candidat",
+      "cv": null,
+      "additionalField": null
+    },
+    {
+      "id": "159b",
+      "username": "mmmmeeehdiii",
+      "email": "bjkvyfyigio",
+      "password": "5416494",
+      "role": "entreprise",
+      "cv": null
+    },
+    {
+      "id": "4217",
+      "username": "Drelmido001",
+      "email": "elmehdidouiri99@gmail.com",
+      "password": "B!A9dnK!WyXZzHE",
+      "role": "candidat",
+      "cv": null,
+      "additionalField": null
+    },
+    {
+      "id": "c4cf",
+      "username": "user",
+      "email": "Drelmido001",
+      "password": "B!A9dnK!WyXZzHE",
+      "role": "candidat",
+      "cv": null
+    },
+    {
+      "id": "3674",
+      "username": "salam",
+      "email": "salam@gmail.com",
+      "password": "323265987",
+      "role": "candidat",
+      "cv": null
+    }
+  ],
+  "resumes": [
+    {
+      "id": "1",
+      "candidateId": 1,
+      "name": "John Doe",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "experience": "3+ years",
+      "additionalField": "..."
+    },
+    {
+      "id": "2",
+      "candidateId": 2,
+      "name": "Jane Smith",
+      "skills": [
+        "Java",
+        "Spring",
+        "Hibernate"
+      ],
+      "experience": "5+ years",
+      "additionalField": "..."
+    }
+  ],
+  "jobPosts": [
+    {
+      "id": "1",
+      "title": "Développeur Web",
+      "description": "Description de l'offre d'emploi...",
+      "skillsRequired": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "companyId": 2,
+      "additionalField": "..."
+    },
+    {
+      "id": "2",
+      "title": "Ingénieur Logiciel",
+      "description": "Description de l'offre d'emploi...",
+      "skillsRequired": [
+        "Java",
+        "Spring",
+        "Hibernate"
+      ],
+      "companyId": 3,
+      "additionalField": "..."
+    }
+  ]
+}
